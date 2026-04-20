@@ -40,8 +40,5 @@
   </url><url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2025-05-29T09:40:35-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/blog/blog/</loc>
-    <lastmod>2025-05-29T09:40:35-04:00</lastmod>
   </url>
 </urlset>
