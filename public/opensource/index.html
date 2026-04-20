@@ -7,8 +7,8 @@ dir="ltr">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="theme-name" content="tailroad" />
-<title>About Tailroad Theme | TailRoad</title>
-<meta name="description" content="">
+<title>Open Source | TailRoad</title>
+<meta name="description" content="Tools, exploits, and research released to the public domain.">
 <link rel="shortcut icon" href="/favicon.ico">
 <script>
   document.documentElement.classList.toggle(
@@ -58,7 +58,7 @@ dir="ltr">
     <a href="/about/"
        class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
               
-                bg-gray-300 text-gray-900 dark:bg-gray-700 dark:text-white
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
               ">
       
       <span>About</span>
@@ -86,7 +86,7 @@ dir="ltr">
     <a href="/opensource/"
        class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
               
-                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+                bg-gray-300 text-gray-900 dark:bg-gray-700 dark:text-white
               ">
       
       <span>Open Source</span>
@@ -128,38 +128,111 @@ dir="ltr">
     </div>    
   </div>
 </header><main id="main-content" class="w-full" role="main">
-    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr]"><section id="posts" class="space-y-2"><h1 class="text-3xl font-bold mb-2">About Tailroad Theme</h1>
+    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr]"><section id="posts" class="space-y-2"><h1 class="text-3xl font-bold mb-2">Open Source</h1>
 
 <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-6">
-  <div class="flex items-center gap-1"><i class="fas fa-clock"></i>1 Mins read
+  <div class="flex items-center gap-1"><i class="fas fa-clock"></i>2 Mins read
   </div>
 
   <div class="flex items-center gap-1">
       <i class="fas fa-calendar"></i>
-      <time datetime="2025-05-29T09:40:35-04:00">May 29, 2025</time>
+      <time datetime="2025-05-29T10:00:00-04:00">May 29, 2025</time>
     </div>
   
 
   <div class="flex items-center gap-1">
   </div>
-</div><article class="prose dark:prose-invert max-w-none"><h1 id="about-this-hugo-theme">About This Hugo Theme</h1>
-<p>This is a <strong>demo</strong> of how an &ldquo;About&rdquo; page could look. Customize it with:</p>
-<h2 id="credits">Credits</h2>
+</div><article class="prose dark:prose-invert max-w-none"><blockquote>
+<p><em>&ldquo;The best way to learn how things break is to build the tools that break them.&rdquo;</em></p>
+</blockquote>
+<p>I believe in open research. Everything here is released for educational purposes — for the security community, kernel engineers, and anyone curious enough to read the source.</p>
+<hr>
+<h2 id="tools--projects">Tools &amp; Projects</h2>
+<h3 id="-project-name--kernel-syscall-tracer">🔧 [project-name] — <em>Kernel Syscall Tracer</em></h3>
+<blockquote>
+<p>Language: <code>C</code> · Platform: <code>Linux x86_64</code> · Status: <code>Active</code></p>
+</blockquote>
+<p>A low-level syscall interception framework built on top of eBPF and raw tracepoints. Designed for tracing kernel behaviour during exploit development without triggering common detection mechanisms.</p>
 <ul>
-<li>Built with 
-<a href="https://gohugo.io"
+<li>Minimal footprint — no kernel module required</li>
+<li>Supports real-time filtering by PID, UID, or syscall number</li>
+<li>Outputs structured JSON for pipeline integration</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.com/yourcyberdev/project-name
+</span></span></code></pre></div><hr>
+<h3 id="-project-name--elf-binary-analyser">🔧 [project-name] — <em>ELF Binary Analyser</em></h3>
+<blockquote>
+<p>Language: <code>Python</code> · Platform: <code>Linux</code> · Status: <code>Active</code></p>
+</blockquote>
+<p>A static analysis tool for ELF binaries focused on identifying exploitable patterns — format string vulnerabilities, use-after-free candidates, and unsafe function usage — without running the binary.</p>
+<ul>
+<li>Parses DWARF debug info for precise source mapping</li>
+<li>Identifies ROP gadget chains automatically</li>
+<li>Integrates with GDB and pwndbg workflows</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.com/yourcyberdev/project-name
+</span></span></code></pre></div><hr>
+<h3 id="-project-name--pipewire-attack-surface-mapper">🔧 [project-name] — <em>PipeWire Attack Surface Mapper</em></h3>
+<blockquote>
+<p>Language: <code>C / Shell</code> · Platform: <code>Linux</code> · Status: <code>Research</code></p>
+</blockquote>
+<p>Born from personal research into the Linux audio stack. Maps the PipeWire IPC attack surface, enumerates exposed sockets, and tests for permission misconfigurations that could allow privilege escalation through multimedia subsystems.</p>
+<ul>
+<li>Documents undocumented PipeWire internal APIs</li>
+<li>Fuzzes graph node connections for unexpected state transitions</li>
+<li>Includes a working PoC for socket permission bypass (patched)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.com/yourcyberdev/project-name
+</span></span></code></pre></div><hr>
+<h2 id="research--write-ups">Research &amp; Write-ups</h2>
+<p>Alongside tools, I release structured research notes and proof-of-concept write-ups on vulnerabilities I&rsquo;ve analysed. These are not weaponised exploits — they are documented for understanding and defence.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Write-up</th>
+          <th>Topic</th>
+          <th>CVE</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Linux Audio Stack Attack Surface</td>
+          <td>PipeWire / ALSA</td>
+          <td>N/A</td>
+      </tr>
+      <tr>
+          <td>Kernel Syscall Interception Techniques</td>
+          <td>eBPF / tracepoints</td>
+          <td>N/A</td>
+      </tr>
+      <tr>
+          <td><em>More coming</em></td>
+          <td>—</td>
+          <td>—</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="philosophy">Philosophy</h2>
+<p>I don&rsquo;t release tools to cause harm. I release them because the best defenders are people who understand offense deeply. Every tool here started as a question I couldn&rsquo;t answer with existing software.</p>
+<p>If you find a bug, want to contribute, or want to discuss the research — reach out.</p>
+<hr>
+<h2 id="repositories">Repositories</h2>
+<ul>
+<li><strong>GitLab</strong> → 
+<a href="https://gitlab.com/example"
    
      target="_blank" rel="noopener noreferrer"
    >
-   Hugo
+   gitlab.com/yourcyberdev
 </a></li>
-<li>Icons by 
-<a href="https://fontawesome.com"
+<li><strong>BitBucket</strong> → 
+<a href="https://bitbucket.org/example"
    
      target="_blank" rel="noopener noreferrer"
    >
-   FontAwesome
-</a></li>
+   bitbucket.org/yourcyberdev
+</a>-</li>
 </ul>
 </article>
 <br>
