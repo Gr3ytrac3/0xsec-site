@@ -64,6 +64,14 @@ menu:
       name: Blog
       url: /blog/
       weight: -80
+    - identifier: opensource
+      name: Open Source
+      url: /opensource/
+      weight: -70
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: -60
   footer:
     - identifier: contact
       name: Coffee
