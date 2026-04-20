@@ -7,7 +7,7 @@ params:
   logo:
      title: Cyberdev | 0xSEC
   copyright: example.org.  Some rights reserved.
-  mainSections: ['posts']
+  mainSections: ['blog']
   author:
     name: "Author"
     bio: "Self Hosting Enthusiast."
@@ -49,6 +49,7 @@ markup:
 outputs:
   home: ['html', 'rss', 'json']
 
+
 menu:
   main:
     - identifier: home
@@ -67,3 +68,6 @@ menu:
     - identifier: contact
       name: Coffee
       url: /hugo/coffee/
+
+disableKinds:
+  - section
