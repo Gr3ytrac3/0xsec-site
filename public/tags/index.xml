@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on TailRoad</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on TailRoad</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <managingEditor>admin@example.org (Author)</managingEditor>
+    <webMaster>admin@example.org (Author)</webMaster>
+    <lastBuildDate>Thu, 29 May 2025 10:42:17 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>//localhost:1313/tags/features/</link>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <guid>//localhost:1313/tags/features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>//localhost:1313/tags/markdown/</link>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <guid>//localhost:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

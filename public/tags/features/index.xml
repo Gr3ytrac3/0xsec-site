@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on TailRoad</title>
+    <link>//localhost:1313/tags/features/</link>
+    <description>Recent content in Features on TailRoad</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <managingEditor>admin@example.org (Author)</managingEditor>
+    <webMaster>admin@example.org (Author)</webMaster>
+    <lastBuildDate>Thu, 29 May 2025 10:42:17 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Microphone Debugging: From ALSA to PipeWire</title>
+      <link>//localhost:1313/blog/my-first-post/</link>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <guid>//localhost:1313/blog/my-first-post/</guid>
+      <description>&lt;p&gt;While testing my laptop&amp;rsquo;s microphone on Linux, I heard sharp static noise instead of my voice but the microphone wasn&amp;rsquo;t broken. The problem was a format mismatch between raw audio streams. This guide walks through proper Linux microphone debugging: why file recording works when live pipes don&amp;rsquo;t, how PipeWire differs from ALSA, and the tools (pw-top, pavucontrol) that reveal what&amp;rsquo;s really happening in your audio stack.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1766493341/Airbrush-OBJECT-REMOVER-1766493267194_wbcena.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
