@@ -6,35 +6,33 @@
     <description>Recent content in Categories on TailRoad</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <managingEditor>admin@example.org (Author)</managingEditor>
-    <webMaster>admin@example.org (Author)</webMaster>
     <lastBuildDate>Thu, 29 May 2025 10:42:17 -0400</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>//localhost:1313/categories/hugo/</link>
-      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
       <guid>//localhost:1313/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux System</title>
       <link>//localhost:1313/categories/linux-system/</link>
-      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
       <guid>//localhost:1313/categories/linux-system/</guid>
       <description></description>
     </item>
     <item>
       <title>Troubleshooting</title>
       <link>//localhost:1313/categories/troubleshooting/</link>
-      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
       <guid>//localhost:1313/categories/troubleshooting/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
       <link>//localhost:1313/categories/tutorials/</link>
-      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate><author>admin@example.org (Author)</author>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
       <guid>//localhost:1313/categories/tutorials/</guid>
       <description></description>
     </item>

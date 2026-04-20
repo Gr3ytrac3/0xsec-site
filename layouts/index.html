@@ -1,24 +1,21 @@
 {{ define "content" }}
 {{ $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 {{ $pinned := sort (where $posts "Params.pinned" true) "Date" "desc" }}
+{{ $unpinned := sort (where $posts "Params.pinned" "ne" true) "Date" "desc" }}
 
-<div class="text-sm text-gray-700 dark:text-gray-300">
+{{ $ordered := slice }}
+  {{ range $pinned }}
+    {{ $ordered = $ordered | append . }}
+  {{ end }}
+  {{ range $unpinned }}
+    {{ $ordered = $ordered | append . }}
+  {{ end }}
+{{ $paginator := .Paginate $ordered }}
+<div class="prose prose-invert prose-sm max-w-none dark:prose-invert mb-8">
   {{ .Content }}
 </div>
-
-{{ if $pinned }}
-  <h2 class="text-base font-semibold text-gray-900 dark:text-white mb-4">Featured</h2>
-  {{ range $pinned }}
-    {{ partial "card.html" . }}
-  {{ end }}
-{{ else }}
-  <p class="text-sm text-gray-500 dark:text-gray-400">No featured posts yet. Add <code>pinned: true</code> to a post's front matter.</p>
+{{ range $paginator.Pages }}
+{{ partial "card.html" . }}
 {{ end }}
-
-<div class="mt-6">
-  <a href="/blog/" class="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline">
-    View all posts →
-  </a>
-</div>
-
+{{ partial "pagination.html" . }}
 {{ end }}
