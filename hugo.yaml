@@ -5,14 +5,14 @@ theme: tailroad
 
 params:  
   logo:
-     title: Cyberdev | 0xSEC
+    title: Cyberdev | 0xSEC
   copyright: example.org.  Some rights reserved.
   mainSections: ['blog']
   author:
     name: "Author"
     bio: "Self Hosting Enthusiast."
     email: "admin@example.org"
-    avatar: ""
+    avatar: "./static/favicon-32x32.png"
     website: "https://example.org"
 
   sidebar:
