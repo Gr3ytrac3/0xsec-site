@@ -3,7 +3,6 @@ date: '2025-05-29T10:42:17-04:00'
 draft: false
 title: 'From guestto host'
 description: Describes common Mainroad theme configuration
-image: https://res.cloudinary.com/dipvhqnzw/image/upload/q_auto/f_auto/v1771548330/95e3d4225d0c31acea494273af0e1ba9-removebg-preview_qetflz.png
 categories:
   - "Tutorials"
   - "Hugo"
