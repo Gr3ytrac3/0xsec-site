@@ -15,5 +15,12 @@
       <guid>//localhost:1313/blog/customization/</guid>
       <description>&lt;p&gt;This page outlines common TailRoad configuration parameters, which can be set either in your Hugo configuration file or directly in a page&amp;rsquo;s Front Matter.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>From guestto host</title>
+      <link>//localhost:1313/blog/second_research/</link>
+      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
+      <guid>//localhost:1313/blog/second_research/</guid>
+      <description>&lt;p&gt;This page outlines common TailRoad configuration parameters, which can be set either in your Hugo configuration file or directly in a page&amp;rsquo;s Front Matter.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
