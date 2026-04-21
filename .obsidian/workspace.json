@@ -191,6 +191,8 @@
   },
   "active": "cf3f188863fbf63a",
   "lastOpenFiles": [
+    "layouts/partials/sidebar-right.html",
+    "layouts/partials/Unconfirmed 807457.crdownload",
     "public/categories/linux/index.xml",
     "public/categories/linux/index.html",
     "public/categories/linux",
@@ -200,8 +202,6 @@
     "public/blog/third_research/index.html",
     "public/blog/third_research",
     "public/blog/fifth_reseach/index.html",
-    "public/blog/fifth_reseach",
-    "public/blog/fourth_research/index.html",
     "content/blog/fifth_reseach.md",
     "content/blog/fourth_research.md",
     "content/blog/third_research.md",
