@@ -9,7 +9,6 @@ categories:
   - "Hugo"
 tags:
   - "markdown"
-pinned: fast
 ---
 This page outlines common TailRoad configuration parameters, which can be set either in your Hugo configuration file or directly in a page's Front Matter.
 
