@@ -191,6 +191,7 @@
   },
   "active": "cf3f188863fbf63a",
   "lastOpenFiles": [
+    "layouts/partials/header.html",
     "layouts/partials/footer.html",
     "layouts/partials/head.html",
     "layouts/partials",
@@ -201,7 +202,6 @@
     "public/opensource/index.html",
     "public/opensource",
     "public/tags/markdown/index.xml",
-    "public/tags/markdown/index.html",
     "themes/tailroad/exampleSite/static/images/books.jpg",
     "themes/tailroad/exampleSite/static/images/documentation.png",
     "themes/tailroad/exampleSite/static/images/teacher.png",
