@@ -8,7 +8,7 @@
     {{- .Content -}}
   </div>
   <section class="flex flex-col gap-4">
-    {{- range .Pages -}}
+    {{- range where .Site.RegularPages "Params.pinned" true -}}
       {{- partial "card.html" . -}}
     {{- end -}}
   </section>
