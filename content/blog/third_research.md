@@ -3,11 +3,10 @@ date: '2025-05-29T10:42:17-04:00'
 draft: false
 title: 'Hello'
 description: Describes common Mainroad theme configuration
-image: https://res.cloudinary.com/dipvhqnzw/image/upload/v1766493341/Airbrush-OBJECT-REMOVER-1766493267194_wbcena.png
+image: https://res.cloudinary.com/dipvhqnzw/image/upload/q_auto/f_auto/v1771548330/95e3d4225d0c31acea494273af0e1ba9-removebg-preview_qetflz.png
 
 categories:
-  - "Linux System"
-  - "Troubleshooting"
+  - "Linux"
 tags:
   - "Features"
   - "Markdown"

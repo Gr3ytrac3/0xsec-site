@@ -23,6 +23,9 @@
     <loc>//localhost:1313/categories/hugo/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/categories/linux/</loc>
+    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/blog/fifth_reseach/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
@@ -32,16 +35,10 @@
     <loc>//localhost:1313/blog/my-first-post/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/linux-system/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/markdown/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/troubleshooting/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/tutorials/</loc>

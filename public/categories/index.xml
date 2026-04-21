@@ -16,17 +16,10 @@
       <description></description>
     </item>
     <item>
-      <title>Linux System</title>
-      <link>//localhost:1313/categories/linux-system/</link>
+      <title>Linux</title>
+      <link>//localhost:1313/categories/linux/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/categories/linux-system/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Troubleshooting</title>
-      <link>//localhost:1313/categories/troubleshooting/</link>
-      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/categories/troubleshooting/</guid>
+      <guid>//localhost:1313/categories/linux/</guid>
       <description></description>
     </item>
     <item>
