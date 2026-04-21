@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e2bc88ab6c2420c5",
+        "id": "8d1108798d0d40e4",
         "type": "tabs",
         "children": [
           {
-            "id": "a19d484f297f739a",
+            "id": "36968bd8e3ff4b97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/customization.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "customization"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/customization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for customization"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/customization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from customization"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/customization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of customization"
+              "title": "Outline"
             }
           },
           {
@@ -198,7 +191,25 @@
   },
   "active": "b86b7024d112a800",
   "lastOpenFiles": [
-    "public/favicon.ico",
+    "layouts/partials/head.html",
+    "layouts/partials",
+    "public/css/main.css",
+    "public/css",
+    "public/index.xml",
+    "public/index.json",
+    "public/opensource/index.html",
+    "public/opensource",
+    "public/tags/markdown/index.xml",
+    "public/tags/markdown/index.html",
+    "public/tags/features/index.xml",
+    "themes/tailroad/exampleSite/static/images/books.jpg",
+    "themes/tailroad/exampleSite/static/images/documentation.png",
+    "themes/tailroad/exampleSite/static/images/teacher.png",
+    "themes/tailroad/exampleSite/static/images/logo.svg",
+    "themes/tailroad/images/tn.png",
+    "themes/tailroad/images/screenshot.png",
+    "themes/tailroad/images/homepage.png",
+    "content/blog/customization.md",
     "content/blog/_index.md"
   ]
 }
