@@ -1,13 +1,16 @@
 ---
 date: '2025-05-29T10:42:17-04:00'
 draft: false
-title: 'Hello'
+title: 'Linux Microphone Debugging: From ALSA to PipeWire'
 description: Describes common Mainroad theme configuration
 categories:
   - "Linux"
 tags:
-  - "Features"
-  - "Markdown"
+  - "Linux Internals"
+  - "Troubleshooting"
+  - "Debugging"
+  - "PipeWire"
+  - "ALSA"
 ---
 While testing my laptop's microphone on Linux, I heard sharp static noise instead of my voice but the microphone wasn't broken. The problem was a format mismatch between raw audio streams. This guide walks through proper Linux microphone debugging: why file recording works when live pipes don't, how PipeWire differs from ALSA, and the tools (pw-top, pavucontrol) that reveal what's really happening in your audio stack.
 
