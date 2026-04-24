@@ -76,7 +76,7 @@
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;This is a &lt;strong&gt;demo&lt;/strong&gt; of how an &amp;ldquo;About&amp;rdquo; page could look. Customize it with:&lt;/p&gt;&#xA;&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built with &#xA;&lt;a href=&#34;https://gohugo.io&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   Hugo&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Icons by &#xA;&lt;a href=&#34;https://fontawesome.com&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   FontAwesome&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;I find what should not be found.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Gr3ytrac3&lt;/strong&gt; — offensive security researcher and kernel engineer operating under &#xA;&lt;a href=&#34;https://github.com/Gr3ytrac3&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   The OffSec Desk&#xA;&lt;/a&gt;. My work lives at ring 0: vulnerability discovery, kernel exploitation, reverse engineering, and responsible disclosure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
