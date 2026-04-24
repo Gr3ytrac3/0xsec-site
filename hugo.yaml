@@ -38,6 +38,10 @@ params:
           name: LinkedIn
           icon: https://res.cloudinary.com/dipvhqnzw/image/upload/q_auto/f_auto/v1776691034/linkedin-removebg-preview_ylunvd.png
           url: https://www.linkedin.com/in/kalu-umah-cyberdev-690421279/
+        substack:
+          name: Substack
+          icon: https://res.cloudinary.com/dipvhqnzw/image/upload/v1777052756/substack-removebg-preview_j5bs33.png
+          url: https://substack.com/@cyberdevhq
 
 pagination:
   pagerSize: 8
