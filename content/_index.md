@@ -1,7 +1,7 @@
 ---
 date: '2025-05-29T10:00:00-04:00'
 draft: false
-title: 'Gr3ytrac3'
+title: 'Welcome to my domaine'
 description: 'Offensive security researcher, kernel security engineer, and low-level exploit developer. Operating at the boundary where software meets silicon.'
 ---
 

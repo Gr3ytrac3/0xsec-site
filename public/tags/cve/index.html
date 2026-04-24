@@ -4,11 +4,10 @@ id="theme-root"
 lang="en-US" 
 dir="ltr">
 
-<head>
-	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="theme-name" content="tailroad" />
-<title>Cyberdev | 0xSEC</title>
+<title>CVE | Cyberdev | 0xSEC</title>
 <meta name="description" content="">
 <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
 <script>
@@ -45,7 +44,7 @@ dir="ltr">
     <a href="/"
        class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
               
-                bg-gray-300 text-gray-900 dark:bg-gray-700 dark:text-white
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
               ">
       
       <span>Home</span>
@@ -122,86 +121,39 @@ dir="ltr">
   </div>
 </header>
 <main id="main-content" class="w-full" role="main">
-    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr_30%] gap-6"><section id="posts" class="space-y-2"><h2 class="text-base font-semibold text-gray-900 dark:text-white">Welcome to my domaine</h2><div class="prose dark:prose-invert prose-sm max-w-none mb-8"><blockquote>
-<p><em>&ldquo;I find what should not be found.&rdquo;</em></p>
-</blockquote>
-<p>I&rsquo;m <strong>Gr3ytrac3</strong> — offensive security researcher and kernel engineer operating under 
-<a href="https://github.com/Gr3ytrac3"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   The OffSec Desk
-</a>. My work lives at ring 0: vulnerability discovery, kernel exploitation, reverse engineering, and responsible disclosure.</p>
-<h2 id="what-i-do">What I Do</h2>
-<p>I research the Linux kernel attack surface — heap primitives, privilege boundaries, covert channels, and the subsystems nobody reads twice. When I find something, I document it fully and disclose it responsibly.</p>
-<p>Current focus areas:</p>
-<ul>
-<li><strong>Kernel exploitation</strong> — SLUB/SLAB heap spray, UAF primitives, KASLR bypass, SMEP/SMAP defeat</li>
-<li><strong>Vulnerability discovery</strong> — attack surface mapping, IPC fuzzing, CVE-track responsible disclosure</li>
-<li><strong>Reverse engineering</strong> — ELF static analysis, ROP chain construction, DWARF debug parsing</li>
-<li><strong>eBPF instrumentation</strong> — tracepoint-based syscall interception, minimal-footprint kernel telemetry</li>
-<li><strong>Covert channels</strong> — virtualization boundary crossing, side-channel identification</li>
-<li><strong>Post-exploitation</strong> — audio attack surfaces, privilege escalation via multimedia subsystems</li>
-</ul>
-<hr>
-<h2 id="active-research">Active Research</h2>
-<h3 id="qemukvm--host-audio-boundary-crossing">QEMU/KVM → Host Audio Boundary Crossing</h3>
-<blockquote>
-<p><code>CWE-669 · CWE-284 · CWE-346</code> — CVSS estimated <strong>6.5–8.0</strong> — <em>Responsible disclosure in progress</em></p>
-</blockquote>
-<p>VM audio silently captured from host via <code>pw-record</code>. 440Hz sine tone injected into VM microphone input, confirmed via spectrogram analysis. Full attack surface documented across PipeWire/SPICE. Disclosure package submitted to virt-manager/libvirt and SPICE/PipeWire maintainers.</p>
-<h3 id="ring-buffer">Ring Buffer</h3>
-<p>Kernel-level logging framework for persistent event capture. Built in C for Linux x86_64 with minimal detection footprint.</p>
-<h3 id="enhanced-process-monitor">Enhanced Process Monitor</h3>
-<p>eBPF-based process telemetry with syscall-level visibility. Designed as a research instrument for exploit development workflows.</p>
-<h3 id="the-invisible-wire">The Invisible Wire</h3>
-<p>A file-permission-bit covert channel operating across KVM virtualization boundaries. Documented as a full research article with a C-based guest/host experiment.</p>
-<h3 id="talon-os">Talon OS</h3>
-<p>Custom OSINT-focused Linux distribution built for offensive intelligence operations.</p>
-<hr>
-<h2 id="language-stack">Language Stack</h2>
-<p><code>C</code> · <code>x86_64 ASM</code> · <code>ARM64 ASM</code> · <code>eBPF</code> · <code>C++</code> · <code>Rust</code> · <code>Python</code> · <code>Bash</code></p>
-<hr>
-<h2 id="writing">Writing</h2>
-<p>Research notes, exploit walkthroughs, and technical essays published on the 
-<a href="/posts"
-   >
-   blog
-</a> and 
-<a href="https://substack.com/@cyberdevhq"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   Substack
-</a>.</p>
-<p>Recent topics: Linux audio attack surfaces · kernel syscall interception · black-box penetration testing · covert channel research · human purpose in the AI age.</p>
-<hr>
-<h2 id="contact">Contact</h2>
-<p>For vulnerability disclosures, research collaborations, or consulting engagements — see the 
-<a href="/contact"
-   >
-   contact page
-</a>. PGP available on request.</p>
-<p>
-<a href="https://x.com/thecyberdevhq"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   @thecyberdevhq
-</a> · 
-<a href="https://github.com/Gr3ytrac3"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   GitHub
-</a> · 
-<a href="mailto:cyberdev@proton.me"
-   >
-   cyberdev@proton.me
-</a></p></div>
-  <a href="/blog" class="inline-flex items-center gap-2 font-mono text-sm text-amber-500 dark:text-amber-400 border border-amber-500 dark:border-amber-400 px-5 py-2.5 hover:bg-amber-500 hover:text-gray-900 dark:hover:bg-amber-400 dark:hover:text-gray-900 transition-colors">
-    Read the Blog &rarr;
-  </a></section><aside id="sidebar-right" aria-label="Sidebar"
+    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr_30%] gap-6"><section id="posts" class="space-y-2">
+  <h1 class="text-2xl mb-6">CVE</h1>
+  <ul class="space-y-2">
+    
+      <article class="group relative">
+    <div
+        class="grid min-h-32 grid-cols-[1fr_auto] gap-4 rounded-md border border-gray-200 bg-white p-4 shadow-sm transition duration-300  dark:border-gray-700 dark:bg-gray-800 group-hover:bg-gray-200 dark:group-hover:bg-gray-500 group-hover:shadow-md">
+        <div id="content" class="flex flex-col justify-between">
+            <div>
+                <header class="mb-2">
+                    <div class="flex items-center justify-between">
+                         
+                        <h2 class="text-lg font-semibold text-gray-900 dark:text-white w-full line-clamp-1">CVE-2021-4154 UAF SERIES - 001</h2>
+                    </div><div class="mt-2 line-clamp-2 text-sm text-gray-700 dark:text-gray-300"><p>A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v1.c in the Linux kernel&rsquo;s cgroup v1 parser. A local attacker with a user privilege could cause a privilege escalation by exploiting the fsconfig syscall parameter leading to a container breakout and a denial of service on the system.</p>
+<p><img src="https://res.cloudinary.com/dipvhqnzw/image/upload/v1777049995/CVE-2021-4154_uln2ig.png" alt=""></p></div></header>
+            </div>
+            <footer class="mt-4 flex justify-between text-sm text-gray-600 dark:text-gray-400">
+                
+                <span class="flex items-center gap-2">
+                    <i class="fas fa-calendar"></i>Apr 24, 2026</span>
+                <span class="flex items-center gap-2">
+                    <i class="fas fa-folder"></i>
+                    <div class="justify-end"><span
+                            class="rounded-full bg-blue-100 px-2 py-0.5 text-xs text-blue-800 dark:bg-blue-800 dark:text-blue-100">Research</span></div>
+                </span></footer>
+        </div></div>
+    <a href="/blog/cve-2021-4154/" class="absolute inset-0 z-0" aria-label="Read more aboutCVE-2021-4154 UAF SERIES - 001"></a>
+</article>
+
+
+    
+  </ul>
+</section><aside id="sidebar-right" aria-label="Sidebar"
         class="hidden lg:block sticky  rounded shadow   
               "><div class="space-y-2 pb-0">
 <div class="bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 shadow mt-2">

@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 29 May 2025 10:42:17 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 18:01:56 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2021-4154 UAF SERIES - 001</title>
+      <link>//localhost:1313/blog/cve-2021-4154/</link>
+      <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
+      <guid>//localhost:1313/blog/cve-2021-4154/</guid>
+      <description>&lt;p&gt;A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v1.c in the Linux kernel&amp;rsquo;s cgroup v1 parser. A local attacker with a user privilege could cause a privilege escalation by exploiting the fsconfig syscall parameter leading to a container breakout and a denial of service on the system.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777049995/CVE-2021-4154_uln2ig.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Customization of the Theme with Configuration</title>
       <link>//localhost:1313/blog/customization/</link>
