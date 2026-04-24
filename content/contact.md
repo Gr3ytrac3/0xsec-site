@@ -37,17 +37,10 @@ The fastest way to reach me for quick exchanges, research discussions, or to jus
 
 ---
 
-### 🦊 GitLab
+### 🐙 GitHub
 Where my tools and research code lives. Open issues on relevant repos for project-specific questions.
 
 **[gitlab.com/yourcyberdev](https://gitlab.com/example)**
-
----
-
-### 🪣 BitBucket
-Secondary code hosting for select projects.
-
-**[bitbucket.org/yourcyberdev](https://bitbucket.org/example)**
 
 ---
 
