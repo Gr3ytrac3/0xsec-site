@@ -23,16 +23,13 @@
     <loc>//localhost:1313/tags/</loc>
     <lastmod>2026-04-24T18:01:56+01:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/alsa/</loc>
+    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/blog/customization/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/features/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/blog/second_research/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/blog/third_research/</loc>
+    <loc>//localhost:1313/tags/debugging/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/hugo/</loc>
@@ -41,16 +38,19 @@
     <loc>//localhost:1313/categories/linux/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/fifth_reseach/</loc>
+    <loc>//localhost:1313/tags/linux-internals/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/fourth_research/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/blog/my-first-post/</loc>
+    <loc>//localhost:1313/blog/linux_audio-debugging/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/markdown/</loc>
+    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/pipewire/</loc>
+    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/troubleshooting/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/tutorials/</loc>
