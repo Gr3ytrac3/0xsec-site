@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://gr3ytrac3.github.io/0xsec-site/"
 title: Cyberdev | 0xSEC
 languageCode: en-US
 theme: tailroad
@@ -59,23 +59,23 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /
+      url: /0xsec-site/
       weight: -100
     - identifier: about
       name: About
-      url: /about/
+      url: /0xsec-site/about/
       weight: -90
     - identifier: blog
       name: Blog
-      url: /blog/
+      url: /0xsec-site/blog/
       weight: -80
     - identifier: opensource
       name: Open Source
-      url: /opensource/
+      url: /0xsec-site/opensource/
       weight: -70
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: /0xsec-site/contact/
       weight: -60
   footer:
     - identifier: contact
