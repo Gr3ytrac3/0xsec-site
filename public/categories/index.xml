@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cyberdev | 0xSEC</title>
-    <link>//localhost:1313/categories/</link>
+    <link>http://localhost:1313/0xsec-site/categories/</link>
     <description>Recent content in Categories on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 24 Apr 2026 18:01:56 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/0xsec-site/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>//localhost:1313/categories/research/</link>
+      <link>http://localhost:1313/0xsec-site/categories/research/</link>
       <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
-      <guid>//localhost:1313/categories/research/</guid>
+      <guid>http://localhost:1313/0xsec-site/categories/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>//localhost:1313/categories/hugo/</link>
+      <link>http://localhost:1313/0xsec-site/categories/hugo/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/categories/hugo/</guid>
+      <guid>http://localhost:1313/0xsec-site/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>//localhost:1313/categories/linux/</link>
+      <link>http://localhost:1313/0xsec-site/categories/linux/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/categories/linux/</guid>
+      <guid>http://localhost:1313/0xsec-site/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>//localhost:1313/categories/tutorials/</link>
+      <link>http://localhost:1313/0xsec-site/categories/tutorials/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/categories/tutorials/</guid>
+      <guid>http://localhost:1313/0xsec-site/categories/tutorials/</guid>
       <description></description>
     </item>
   </channel>

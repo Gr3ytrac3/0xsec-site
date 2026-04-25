@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cyberdev | 0xSEC</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/0xsec-site/tags/</link>
     <description>Recent content in Tags on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 24 Apr 2026 18:01:56 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/0xsec-site/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CVE</title>
-      <link>//localhost:1313/tags/cve/</link>
+      <link>http://localhost:1313/0xsec-site/tags/cve/</link>
       <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
-      <guid>//localhost:1313/tags/cve/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/cve/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>//localhost:1313/tags/linux/</link>
+      <link>http://localhost:1313/0xsec-site/tags/linux/</link>
       <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
-      <guid>//localhost:1313/tags/linux/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>ALSA</title>
-      <link>//localhost:1313/tags/alsa/</link>
+      <link>http://localhost:1313/0xsec-site/tags/alsa/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/tags/alsa/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/alsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Debugging</title>
-      <link>//localhost:1313/tags/debugging/</link>
+      <link>http://localhost:1313/0xsec-site/tags/debugging/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/tags/debugging/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/debugging/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux Internals</title>
-      <link>//localhost:1313/tags/linux-internals/</link>
+      <link>http://localhost:1313/0xsec-site/tags/linux-internals/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/tags/linux-internals/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/linux-internals/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>//localhost:1313/tags/markdown/</link>
+      <link>http://localhost:1313/0xsec-site/tags/markdown/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/tags/markdown/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>PipeWire</title>
-      <link>//localhost:1313/tags/pipewire/</link>
+      <link>http://localhost:1313/0xsec-site/tags/pipewire/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/tags/pipewire/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/pipewire/</guid>
       <description></description>
     </item>
     <item>
       <title>Troubleshooting</title>
-      <link>//localhost:1313/tags/troubleshooting/</link>
+      <link>http://localhost:1313/0xsec-site/tags/troubleshooting/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/tags/troubleshooting/</guid>
+      <guid>http://localhost:1313/0xsec-site/tags/troubleshooting/</guid>
       <description></description>
     </item>
   </channel>

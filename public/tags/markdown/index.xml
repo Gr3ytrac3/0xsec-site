@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Cyberdev | 0xSEC</title>
-    <link>//localhost:1313/tags/markdown/</link>
+    <link>http://localhost:1313/0xsec-site/tags/markdown/</link>
     <description>Recent content in Markdown on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 29 May 2025 10:42:17 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/0xsec-site/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Customization of the Theme with Configuration</title>
-      <link>//localhost:1313/blog/customization/</link>
+      <link>http://localhost:1313/0xsec-site/blog/customization/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>//localhost:1313/blog/customization/</guid>
+      <guid>http://localhost:1313/0xsec-site/blog/customization/</guid>
       <description>&lt;p&gt;This page outlines common TailRoad configuration parameters, which can be set either in your Hugo configuration file or directly in a page&amp;rsquo;s Front Matter.&lt;/p&gt;</description>
     </item>
   </channel>
