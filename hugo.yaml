@@ -63,7 +63,7 @@ menu:
       weight: -100
     - identifier: about
       name: About
-      urlabout/
+      url: /about/
       weight: -90
     - identifier: blog
       name: Blog
