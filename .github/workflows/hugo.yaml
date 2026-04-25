@@ -25,7 +25,7 @@ jobs:
         working-directory: ./themes/tailroad
 
       - name: Build Tailwind CSS
-        run: npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/main.css
+        run: npx @tailwindcss/cli -i assets/css/main.css -o static/css/main.css
         working-directory: ./themes/tailroad
 
       - name: Setup Hugo
