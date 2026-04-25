@@ -59,23 +59,23 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /0xsec-site/
+      url: /
       weight: -100
     - identifier: about
       name: About
-      url: /0xsec-site/about/
+      urlabout/
       weight: -90
     - identifier: blog
       name: Blog
-      url: /0xsec-site/blog/
+      url: /blog/
       weight: -80
     - identifier: opensource
       name: Open Source
-      url: /0xsec-site/opensource/
+      url: /opensource/
       weight: -70
     - identifier: contact
       name: Contact
-      url: /0xsec-site/contact/
+      url: /contact/
       weight: -60
   footer:
     - identifier: contact
