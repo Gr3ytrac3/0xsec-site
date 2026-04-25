@@ -5,11 +5,7 @@
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{else}}{{ .Params.Description }}{{end}}">
 <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
 <script>
-  document.documentElement.classList.toggle(
-  "dark",
-  localStorage.theme === "dark" ||
-    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches),
-);
+  document.documentElement.classList.add("dark");
 </script>
 {{- partialCached "head/css.html" . -}}
 
