@@ -3,26 +3,33 @@ draft: false
 title: "Welcome to my domaine"
 ---
 
-# About Me
+## About Me
 
-> *"I find what should not be found."*
+![](https://res.cloudinary.com/dipvhqnzw/image/upload/v1777075750/Banni%C3%A8re_LinkedIn_Professionnelle_Digital_Moderne_Simple_Noir_et_Blanc_qva740.png)
 
-I'm **Gr3ytrac3** — offensive security researcher and kernel engineer operating under [The OffSec Desk](https://github.com/Gr3ytrac3). My work lives at ring 0: vulnerability discovery, kernel exploitation, reverse engineering, and responsible disclosure.
+I work at the edges of low-level systems — kernel vulnerabilities, exploitation research, things that break in ways most people never see. But this is not really a newsletter about that.
+
+<br>
+This is about what it actually costs to build something real. The doubt that comes before the breakthrough. The long sessions where nothing works. The strange feeling of loving a craft that constantly humbles you.
+
+<br>
+
+I write because I want you to see yourself in here somewhere. Not the polished version of someone who already made it — the honest version of someone still in the middle of it, choosing to keep going anyway.
+Whatever you are building, you are not as far behind as you think.
 
 <!--more-->
 
 ## What I Do
 
-I research the Linux kernel attack surface — heap primitives, privilege boundaries, covert channels, and the subsystems nobody reads twice. When I find something, I document it fully and disclose it responsibly.
+I work at the edges of low-level systems — kernel vulnerabilities, exploitation research, things that break in ways most people never see. But this is not really a newsletter about that.
 
-Current focus areas:
+<br>
+This is about what it actually costs to build something real. The doubt that comes before the breakthrough. The long sessions where nothing works. The strange feeling of loving a craft that constantly humbles you.
 
-- **Kernel exploitation** — SLUB/SLAB heap spray, UAF primitives, KASLR bypass, SMEP/SMAP defeat
-- **Vulnerability discovery** — attack surface mapping, IPC fuzzing, CVE-track responsible disclosure
-- **Reverse engineering** — ELF static analysis, ROP chain construction, DWARF debug parsing
-- **eBPF instrumentation** — tracepoint-based syscall interception, minimal-footprint kernel telemetry
-- **Covert channels** — virtualization boundary crossing, side-channel identification
-- **Post-exploitation** — audio attack surfaces, privilege escalation via multimedia subsystems
+<br>
+
+I write because I want you to see yourself in here somewhere. Not the polished version of someone who already made it — the honest version of someone still in the middle of it, choosing to keep going anyway.
+Whatever you are building, you are not as far behind as you think.
 
 ---
 
