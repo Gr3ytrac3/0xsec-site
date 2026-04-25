@@ -9,21 +9,16 @@ dir="ltr">
 <meta name="theme-name" content="tailroad" />
 <title>ALSA | Cyberdev | 0xSEC</title>
 <meta name="description" content="">
-<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+<link rel="icon" type="image/x-icon" href="/0xsec-site/favicon.ico">
 <script>
-  document.documentElement.classList.toggle(
-  "dark",
-  localStorage.theme === "dark" ||
-    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches),
-);
+  document.documentElement.classList.add("dark");
 </script><link rel="stylesheet" href="/0xsec-site/css/main.css"></head>
 
 <body class="flex flex-col text-gray-900 dark:text-white bg-white dark:bg-gray-900"><header class="w-full sticky top-0 z-50 bg-gray-100 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
   <div class="px-4 py-2 lg:px-6">
-    <div class="flex items-center justify-between ">      
+    <div class="flex items-center justify-between">
       <div class="flex items-center space-x-2">
-        <a href="/0xsec-site/"  title="Cyberdev | 0xSEC"  rel="home"
-          class="flex items-center">
+        <a href="/0xsec-site/"  title="Cyberdev | 0xSEC"  rel="home" class="flex items-center">
           
           <div class="flex flex-col leading-tight">
             <span class="text-xl font-bold text-amber-900 dark:text-amber-400">Cyberdev | 0xSEC</span>
@@ -32,7 +27,8 @@ dir="ltr">
         </a>
       </div>
 
-      <nav class="flex flex-wrap gap-4 text-sm">
+      
+      <nav class="hidden lg:flex flex-wrap gap-4 text-sm">
         
 <nav class="flex flex-wrap gap-4 text-sm">
   
@@ -109,17 +105,114 @@ dir="ltr">
 </nav>
       </nav>
 
-      <div class="flex items-center space-x-4">  
-          <div class="flex items-center border border-gray-600 rounded-full px-4 py-2">
-        <i data-lucide="search" class="w-5 h-5 text-gray-400 mr-2"></i>
-        <input id="searchInput" type="text" placeholder="Search..." aria-label="Search Articles"
-          class="bg-transparent focus:outline-none text-sm text-gray-900 dark:text-white placeholder-gray-400" />                  
-        <kbd id="search-shortcut" class="ml-3 text-xs font-mono text-gray-500 dark:text-gray-300 bg-gray-200 dark:bg-gray-700 px-2 py-0.5 rounded">
+      <div class="flex items-center space-x-4">
+        <div class="hidden lg:flex items-center border border-gray-600 rounded-full px-4 py-2">
+          <i data-lucide="search" class="w-5 h-5 text-gray-400 mr-2"></i>
+          <input id="searchInput" type="text" placeholder="Search..." aria-label="Search Articles"
+            class="bg-transparent focus:outline-none text-sm text-gray-900 dark:text-white placeholder-gray-400" />
+          <kbd id="search-shortcut" class="ml-3 text-xs font-mono text-gray-500 dark:text-gray-300 bg-gray-200 dark:bg-gray-700 px-2 py-0.5 rounded"></kbd>
+        </div>
+
+        <button id="theme-toggle"
+          class="p-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-200 cursor-pointer"
+          aria-label="Toggle theme">
+          <i id="theme-icon-light" data-lucide="sun" class="w-5 h-5 block dark:hidden"></i>
+          <i id="theme-icon-dark" data-lucide="moon" class="w-5 h-5 hidden dark:block"></i>
+        </button>
+
         
-        </kbd>
-      </div>    
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    
+    <div id="mobile-menu" class="hidden lg:hidden mt-2 pb-2">
+      <nav class="flex flex-col gap-2 text-sm">
+        
+<nav class="flex flex-wrap gap-4 text-sm">
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Home</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/about/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>About</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/blog/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Blog</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/opensource/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Open Source</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/contact/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Contact</span>
+    </a>
+  
+</nav>
+      </nav>
+    </div>
   </div>
 </header>
+
+<script>
+  document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+  });
+</script>
 <main id="main-content" class="w-full" role="main">
     <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr_30%] gap-6"><section id="posts" class="space-y-2">
   <h1 class="text-2xl mb-6">ALSA</h1>
