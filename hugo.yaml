@@ -3,6 +3,10 @@ title: Cyberdev | 0xSEC
 languageCode: en-US
 theme: tailroad
 
+taxonomies:
+  tag: tags
+  category: categories
+
 params:  
   logo:
     title: Cyberdev | 0xSEC
@@ -53,7 +57,8 @@ markup:
 
 outputs:
   home: ['html', 'rss', 'json']
-
+  taxonomy: ['html', 'rss']
+  term: ['html', 'rss']
 
 menu:
   main:
