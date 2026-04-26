@@ -209,42 +209,21 @@ dir="ltr">
 });
 </script>
 <main id="main-content" class="w-full" role="main">
-    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr_30%] gap-6"><section id="posts" class="space-y-2"><h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Welcome to my domaine</h2><div class="prose dark:prose-invert prose-sm max-w-none mb-8"><blockquote>
-<p><em>&ldquo;I find what should not be found.&rdquo;</em></p>
+    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr_30%] gap-6"><section id="posts" class="space-y-2"><h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Welcome to my domain</h2><div class="prose dark:prose-invert prose-sm max-w-none mb-8"><blockquote>
+<p><em>I find what should not be found.</em></p>
 </blockquote>
-<p>I&rsquo;m <strong>Gr3ytrac3</strong> — offensive security researcher and kernel engineer operating under 
-<a href="https://github.com/Gr3ytrac3"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   The OffSec Desk
-</a>. My work lives at ring 0: vulnerability discovery, kernel exploitation, reverse engineering, and responsible disclosure.</p>
-<h2 id="what-i-do">What I Do</h2>
-<p>I research the Linux kernel attack surface — heap primitives, privilege boundaries, covert channels, and the subsystems nobody reads twice. When I find something, I document it fully and disclose it responsibly.</p>
-<p>Current focus areas:</p>
-<ul>
-<li><strong>Kernel exploitation</strong> — SLUB/SLAB heap spray, UAF primitives, KASLR bypass, SMEP/SMAP defeat</li>
-<li><strong>Vulnerability discovery</strong> — attack surface mapping, IPC fuzzing, CVE-track responsible disclosure</li>
-<li><strong>Reverse engineering</strong> — ELF static analysis, ROP chain construction, DWARF debug parsing</li>
-<li><strong>eBPF instrumentation</strong> — tracepoint-based syscall interception, minimal-footprint kernel telemetry</li>
-<li><strong>Covert channels</strong> — virtualization boundary crossing, side-channel identification</li>
-<li><strong>Post-exploitation</strong> — audio attack surfaces, privilege escalation via multimedia subsystems</li>
-</ul>
-<hr>
-<h2 id="active-research">Active Research</h2>
-<h3 id="qemukvm--host-audio-boundary-crossing">QEMU/KVM → Host Audio Boundary Crossing</h3>
+<p>Most sites in this space hand you a wall of jargon and call it knowledge.</p>
+<p>This one is different and among the few that actually give you valuable insight, knowing that not everyone can related with the content. I built it for the curious not just the credentialed. Whether you are deep in low-level systems, the kernel or just beginning to ask real questions, you belong here and you&rsquo;re welcome.</p>
+<h2 id="what-i-share-here">What i share here</h2>
 <blockquote>
-<p><code>CWE-669 · CWE-284 · CWE-346</code> — CVSS estimated <strong>6.5–8.0</strong> — <em>Responsible disclosure in progress</em></p>
+<p>I am not here to prove I am the smartest person in the room. I am here to make the room bigger.</p>
 </blockquote>
-<p>VM audio silently captured from host via <code>pw-record</code>. 440Hz sine tone injected into VM microphone input, confirmed via spectrogram analysis. Full attack surface documented across PipeWire/SPICE. Disclosure package submitted to virt-manager/libvirt and SPICE/PipeWire maintainers.</p>
-<h3 id="ring-buffer">Ring Buffer</h3>
-<p>Kernel-level logging framework for persistent event capture. Built in C for Linux x86_64 with minimal detection footprint.</p>
-<h3 id="enhanced-process-monitor">Enhanced Process Monitor</h3>
-<p>eBPF-based process telemetry with syscall-level visibility. Designed as a research instrument for exploit development workflows.</p>
-<h3 id="the-invisible-wire">The Invisible Wire</h3>
-<p>A file-permission-bit covert channel operating across KVM virtualization boundaries. Documented as a full research article with a C-based guest/host experiment.</p>
-<h3 id="talon-os">Talon OS</h3>
-<p>Custom OSINT-focused Linux distribution built for offensive intelligence operations.</p>
+<ul>
+<li><strong>Technical</strong> — CVE analysis, kernel exploitation, low-level research — written so the reasoning is visible, not just the result. Here, when the process is understood, the results become evident</li>
+<li><strong>Educational</strong> — Concepts explained from first principles. If you have to Google every third word, I have failed.</li>
+<li><strong>Personal Thoughts</strong> — The cost of craft. What it feels like to build something real. This the part most people usually don&rsquo;t posts about.</li>
+<li><strong>Open</strong> — Everything I build is shared. Every insight is documented. There&rsquo;s no benefit in hidden knowledge. It&rsquo;s a waste.</li>
+</ul>
 <hr>
 <h2 id="language-stack">Language Stack</h2>
 <p><code>C</code> · <code>x86_64 ASM</code> · <code>ARM64 ASM</code> · <code>eBPF</code> · <code>C++</code> · <code>Rust</code> · <code>Python</code> · <code>Bash</code></p>
@@ -285,7 +264,8 @@ dir="ltr">
 <a href="mailto:cyberdev@proton.me"
    >
    cyberdev@proton.me
-</a></p></div>
+</a></p>
+</div>
   <a href="/0xsec-site/blog" class="inline-flex items-center gap-2 font-mono text-sm text-amber-500 dark:text-amber-400 border border-amber-500 dark:border-amber-400 px-5 py-2.5 hover:bg-amber-500 hover:text-gray-900 dark:hover:bg-amber-400 dark:hover:text-gray-900 transition-colors">
     Read the Blog &rarr;
   </a></section><aside id="sidebar-right" aria-label="Sidebar"

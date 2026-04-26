@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to my domaine on Cyberdev | 0xSEC</title>
+    <title>Welcome to my domain on Cyberdev | 0xSEC</title>
     <link>http://localhost:1313/0xsec-site/</link>
-    <description>Recent content in Welcome to my domaine on Cyberdev | 0xSEC</description>
+    <description>Recent content in Welcome to my domain on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 24 Apr 2026 18:01:56 +0100</lastBuildDate>
@@ -48,7 +48,7 @@
       <link>http://localhost:1313/0xsec-site/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/0xsec-site/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777075750/Banni%C3%A8re_LinkedIn_Professionnelle_Digital_Moderne_Simple_Noir_et_Blanc_qva740.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I work at the edges of low-level systems — kernel vulnerabilities, exploitation research, things that break in ways most people never see. But this is not really a newsletter about that.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;This is about what it actually costs to build something real. The doubt that comes before the breakthrough. The long sessions where nothing works. The strange feeling of loving a craft that constantly humbles you.&#xA;&lt;br&gt;&#xA;&lt;p&gt;I write because I want you to see yourself in here somewhere. Not the polished version of someone who already made it — the honest version of someone still in the middle of it, choosing to keep going anyway.&#xA;Whatever you are building, you are not as far behind as you think.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777075750/Banni%C3%A8re_LinkedIn_Professionnelle_Digital_Moderne_Simple_Noir_et_Blanc_qva740.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Rome was not built in a day — and neither was any person worth knowing.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;My name is Kalu. I go by Cyberdev — not because I want a brand, but because the name found me before I found myself in this field. I am an offensive security researcher and software engineer, operating somewhere between the kernel and the edge of what I currently understand. That edge moves every day. I chase it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
