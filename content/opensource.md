@@ -1,12 +1,12 @@
 ---
 date: '2025-05-29T10:00:00-04:00'
 draft: false
-title: 'Open Source'
+title: 'Things I built and worked on'
 description: 'Tools, exploits, and research released to the public domain.'
 ---
-## Things I built and worked on
 
-> *"The best way to learn how things break is to build the tools that break them."*
+
+> The best way to learn how things break is to build the tools that break them.
 
 I believe in open research. Everything here is released for educational purposes — for the security community, kernel engineers, and anyone curious enough to read the source.
 
@@ -14,48 +14,29 @@ I believe in open research. Everything here is released for educational purposes
 
 ## Tools & Projects
 
-### 🔧 [project-name] — *Kernel Syscall Tracer*
-> Language: `C` · Platform: `Linux x86_64` · Status: `Active`
+### *- KERNEX* </span> <span style="color: #a0f600;">(Ongoing)</span>
 
-A low-level syscall interception framework built on top of eBPF and raw tracepoints. Designed for tracing kernel behaviour during exploit development without triggering common detection mechanisms.
+<span style="color: orange;">Python - FAISS - Claude API - Kernel Security - RAG 
 
-- Minimal footprint — no kernel module required
-- Supports real-time filtering by PID, UID, or syscall number
-- Outputs structured JSON for pipeline integration
+A reasoning engine that helps security researchers understand whether a kernel bug is exploitable, why it is, and how to approach it. Built on a curated knowledge base of real exploitation patterns. Not a scanner. Not a magic button. A thinking partner.
 
-```bash
-git clone https://gitlab.com/yourcyberdev/project-name
-```
 
----
+### *- RINGBUFFER* </span> <span style="color: #a0f600;">(Live)</span>
 
-### 🔧 [project-name] — *ELF Binary Analyser*
-> Language: `Python` · Platform: `Linux` · Status: `Active`
+<span style="color: orange;">Python - PySide6 - Async - Kernel</span>
 
-A static analysis tool for ELF binaries focused on identifying exploitable patterns — format string vulnerabilities, use-after-free candidates, and unsafe function usage — without running the binary.
+A Python/PySide6 tool for real-time kernel log analysis with async event-driven architecture. Built for researchers who need to watch the kernel's internal state without leaving their workflow. Direct /dev/kmsg streaming.
 
-- Parses DWARF debug info for precise source mapping
-- Identifies ROP gadget chains automatically
-- Integrates with GDB and pwndbg workflows
+Check [here](https://github.com/The-OffSec-Desk/ringbuffer)
 
-```bash
-git clone https://gitlab.com/yourcyberdev/project-name
-```
 
----
 
-### 🔧 [project-name] — *PipeWire Attack Surface Mapper*
-> Language: `C / Shell` · Platform: `Linux` · Status: `Research`
+### *- ELPM* </span> <span style="color: #a0f600;">(Live)</span> 
+<span style="color: orange;">Python - PyQt6- Linux - Process Monitoring</span>
 
-Born from personal research into the Linux audio stack. Maps the PipeWire IPC attack surface, enumerates exposed sockets, and tests for permission misconfigurations that could allow privilege escalation through multimedia subsystems.
+A PyQt6-based Linux process monitoring tool with a focus on security-relevant process behavior. Built to understand what the kernel sees when processes run — not just what they show you.
 
-- Documents undocumented PipeWire internal APIs
-- Fuzzes graph node connections for unexpected state transitions
-- Includes a working PoC for socket permission bypass (patched)
-
-```bash
-git clone https://gitlab.com/yourcyberdev/project-name
-```
+Check [here](https://github.com/The-OffSec-Desk/enhanced-process-monitor)
 
 ---
 

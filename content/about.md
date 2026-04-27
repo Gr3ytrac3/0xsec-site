@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Welcome to my domaine"
+title: "Welcome to my domain"
 ---
 
 ## <span style="color: orange;">About Me</span>   

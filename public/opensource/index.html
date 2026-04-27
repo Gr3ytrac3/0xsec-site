@@ -7,7 +7,7 @@ dir="ltr">
 <head><script src="/0xsec-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=0xsec-site/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="theme-name" content="tailroad" />
-<title>Open Source | Cyberdev | 0xSEC</title>
+<title>Things I built and worked on | Cyberdev | 0xSEC</title>
 <meta name="description" content="Tools, exploits, and research released to the public domain.">
 <link rel="icon" type="image/x-icon" href="/0xsec-site/favicon.ico">
 <script>
@@ -208,7 +208,7 @@ dir="ltr">
 });
 </script>
 <main id="main-content" class="w-full" role="main">
-    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr]"><section id="posts" class="space-y-2"><h1 class="text-3xl font-bold mb-2">Open Source</h1>
+    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr]"><section id="posts" class="space-y-2"><h1 class="text-3xl font-bold mb-2">Things I built and worked on</h1>
 
 <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-6">
   <div class="flex items-center gap-1"><i class="fas fa-clock"></i>2 Mins read
@@ -222,49 +222,36 @@ dir="ltr">
 
   <div class="flex items-center gap-1">
   </div>
-</div><article class="prose dark:prose-invert max-w-none"><h2 id="things-i-built-and-worked-on">Things I built and worked on</h2>
-<blockquote>
-<p><em>&ldquo;The best way to learn how things break is to build the tools that break them.&rdquo;</em></p>
+</div><article class="prose dark:prose-invert max-w-none"><blockquote>
+<p>The best way to learn how things break is to build the tools that break them.</p>
 </blockquote>
 <p>I believe in open research. Everything here is released for educational purposes — for the security community, kernel engineers, and anyone curious enough to read the source.</p>
 <hr>
 <h2 id="tools--projects">Tools &amp; Projects</h2>
-<h3 id="-project-name--kernel-syscall-tracer">🔧 [project-name] — <em>Kernel Syscall Tracer</em></h3>
-<blockquote>
-<p>Language: <code>C</code> · Platform: <code>Linux x86_64</code> · Status: <code>Active</code></p>
-</blockquote>
-<p>A low-level syscall interception framework built on top of eBPF and raw tracepoints. Designed for tracing kernel behaviour during exploit development without triggering common detection mechanisms.</p>
-<ul>
-<li>Minimal footprint — no kernel module required</li>
-<li>Supports real-time filtering by PID, UID, or syscall number</li>
-<li>Outputs structured JSON for pipeline integration</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.com/yourcyberdev/project-name
-</span></span></code></pre></div><hr>
-<h3 id="-project-name--elf-binary-analyser">🔧 [project-name] — <em>ELF Binary Analyser</em></h3>
-<blockquote>
-<p>Language: <code>Python</code> · Platform: <code>Linux</code> · Status: <code>Active</code></p>
-</blockquote>
-<p>A static analysis tool for ELF binaries focused on identifying exploitable patterns — format string vulnerabilities, use-after-free candidates, and unsafe function usage — without running the binary.</p>
-<ul>
-<li>Parses DWARF debug info for precise source mapping</li>
-<li>Identifies ROP gadget chains automatically</li>
-<li>Integrates with GDB and pwndbg workflows</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.com/yourcyberdev/project-name
-</span></span></code></pre></div><hr>
-<h3 id="-project-name--pipewire-attack-surface-mapper">🔧 [project-name] — <em>PipeWire Attack Surface Mapper</em></h3>
-<blockquote>
-<p>Language: <code>C / Shell</code> · Platform: <code>Linux</code> · Status: <code>Research</code></p>
-</blockquote>
-<p>Born from personal research into the Linux audio stack. Maps the PipeWire IPC attack surface, enumerates exposed sockets, and tests for permission misconfigurations that could allow privilege escalation through multimedia subsystems.</p>
-<ul>
-<li>Documents undocumented PipeWire internal APIs</li>
-<li>Fuzzes graph node connections for unexpected state transitions</li>
-<li>Includes a working PoC for socket permission bypass (patched)</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://gitlab.com/yourcyberdev/project-name
-</span></span></code></pre></div><hr>
+<h3 id="--kernex--ongoing"><em>- KERNEX</em> </span> <span style="color: #a0f600;">(Ongoing)</span></h3>
+<p><span style="color: orange;">Python - FAISS - Claude API - Kernel Security - RAG</p>
+<p>A reasoning engine that helps security researchers understand whether a kernel bug is exploitable, why it is, and how to approach it. Built on a curated knowledge base of real exploitation patterns. Not a scanner. Not a magic button. A thinking partner.</p>
+<h3 id="--ringbuffer--live"><em>- RINGBUFFER</em> </span> <span style="color: #a0f600;">(Live)</span></h3>
+<p><span style="color: orange;">Python - PySide6 - Async - Kernel</span></p>
+<p>A Python/PySide6 tool for real-time kernel log analysis with async event-driven architecture. Built for researchers who need to watch the kernel&rsquo;s internal state without leaving their workflow. Direct /dev/kmsg streaming.</p>
+<p>Check 
+<a href="https://github.com/The-OffSec-Desk/ringbuffer"
+   
+     target="_blank" rel="noopener noreferrer"
+   >
+   here
+</a></p>
+<h3 id="--elpm--live"><em>- ELPM</em> </span> <span style="color: #a0f600;">(Live)</span></h3>
+<p><span style="color: orange;">Python - PyQt6- Linux - Process Monitoring</span></p>
+<p>A PyQt6-based Linux process monitoring tool with a focus on security-relevant process behavior. Built to understand what the kernel sees when processes run — not just what they show you.</p>
+<p>Check 
+<a href="https://github.com/The-OffSec-Desk/enhanced-process-monitor"
+   
+     target="_blank" rel="noopener noreferrer"
+   >
+   here
+</a></p>
+<hr>
 <h2 id="research--write-ups">Research &amp; Write-ups</h2>
 <p>Alongside tools, I release structured research notes and proof-of-concept write-ups on vulnerabilities I&rsquo;ve analysed. These are not weaponised exploits — they are documented for understanding and defence.</p>
 <table>

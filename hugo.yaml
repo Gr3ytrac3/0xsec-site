@@ -46,6 +46,7 @@ params:
           name: Substack
           icon: https://res.cloudinary.com/dipvhqnzw/image/upload/v1777052756/substack-removebg-preview_j5bs33.png
           url: https://substack.com/@cyberdevhq
+      
   giscus:
     repo: "Gr3ytrac3/0xsec-site"
     repoid: "R_kgDOSHSMdA"
