@@ -44,23 +44,6 @@ Check [here](https://github.com/The-OffSec-Desk/enhanced-process-monitor)
 
 Alongside tools, I release structured research notes and proof-of-concept write-ups on vulnerabilities I've analysed. These are not weaponised exploits — they are documented for understanding and defence.
 
-| Write-up | Topic | CVE |
+| Write-up | Category | Writeup
 |---|---|---|
-| Linux Audio Stack Attack Surface | PipeWire / ALSA | N/A |
-| Kernel Syscall Interception Techniques | eBPF / tracepoints | N/A |
-| *More coming* | — | — |
-
 ---
-
-## Philosophy
-
-I don't release tools to cause harm. I release them because the best defenders are people who understand offense deeply. Every tool here started as a question I couldn't answer with existing software.
-
-If you find a bug, want to contribute, or want to discuss the research — reach out.
-
----
-
-## Repositories
-
-- **GitLab** → [gitlab.com/yourcyberdev](https://gitlab.com/example)
-- **BitBucket** → [bitbucket.org/yourcyberdev](https://bitbucket.org/example)-

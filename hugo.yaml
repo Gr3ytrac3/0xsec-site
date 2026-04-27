@@ -46,6 +46,11 @@ params:
           name: Substack
           icon: https://res.cloudinary.com/dipvhqnzw/image/upload/v1777052756/substack-removebg-preview_j5bs33.png
           url: https://substack.com/@cyberdevhq
+        orcid:
+          name: ORCID
+          icon: https://res.cloudinary.com/dipvhqnzw/image/upload/v1777260347/14549010-removebg-preview_ruijcw.png
+          url: https://orcid.org/0009-0002-2842-0413
+
       
   giscus:
     repo: "Gr3ytrac3/0xsec-site"
@@ -91,6 +96,10 @@ menu:
       name: Contact
       url: /contact/
       weight: -60
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: -50
   footer:
     - identifier: contact
       name: Coffee

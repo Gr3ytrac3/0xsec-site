@@ -24,6 +24,8 @@ I share everything I learn here, not to demonstrate how far I have come, but to 
 
 **KERNEX**, an AI-assisted kernel exploitation reasoning system. Documenting every step of the build publicly.
 
+A project with <a href="https://github.com/EmmazonTech" style="color: orange;">Mazon</a> as collaborator 
+
 ### Research Focus
 
 Linux kernel exploitation · UAF vulnerability analysis · Heap exploitation techniques · Offensive security tooling

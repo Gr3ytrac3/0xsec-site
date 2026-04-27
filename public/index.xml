@@ -6,14 +6,14 @@
     <description>Recent content in Welcome to my domain on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 Apr 2026 18:01:56 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 03:46:27 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/0xsec-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CVE-2021-4154 UAF SERIES - 001</title>
-      <link>http://localhost:1313/0xsec-site/blog/cve-2021-4154/</link>
-      <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
-      <guid>http://localhost:1313/0xsec-site/blog/cve-2021-4154/</guid>
-      <description>&lt;p&gt;A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v1.c in the Linux kernel&amp;rsquo;s cgroup v1 parser. A local attacker with a user privilege could cause a privilege escalation by exploiting the fsconfig syscall parameter leading to a container breakout and a denial of service on the system.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777049995/CVE-2021-4154_uln2ig.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <title>Thoughts &amp; fragments</title>
+      <link>http://localhost:1313/0xsec-site/notes/</link>
+      <pubDate>Mon, 27 Apr 2026 03:46:27 +0100</pubDate>
+      <guid>http://localhost:1313/0xsec-site/notes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777259927/notes-banner_ddngqa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not everything becomes an article. Some things are observations, half-formed ideas, raw analysis notes, or reflections from a late session. They belong here — honest and unpolished, shared anyway.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Write-up&lt;/th&gt;&#xA;          &lt;th&gt;Category&lt;/th&gt;&#xA;          &lt;th&gt;Writeup&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title>Customization of the Theme with Configuration</title>
@@ -34,7 +34,7 @@
       <link>http://localhost:1313/0xsec-site/contact/</link>
       <pubDate>Thu, 29 May 2025 10:00:00 -0400</pubDate>
       <guid>http://localhost:1313/0xsec-site/contact/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;I don&amp;rsquo;t do small talk. But I do deep technical conversation.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re here, you probably have something worth saying. I&amp;rsquo;m reachable through the channels below — pick whichever fits your context.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;when-to-reach-out&#34;&gt;When to Reach Out&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m open to:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Vulnerability research collaborations&lt;/li&gt;&#xA;&lt;li&gt;Kernel security discussions and code review&lt;/li&gt;&#xA;&lt;li&gt;Offensive security consulting engagements&lt;/li&gt;&#xA;&lt;li&gt;CTF team invitations and writeup exchanges&lt;/li&gt;&#xA;&lt;li&gt;Speaking at security conferences or community events&lt;/li&gt;&#xA;&lt;li&gt;Feedback on my published research or tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m not the right contact for:&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you&amp;rsquo;re here, you probably have something worth saying. I&amp;rsquo;m reachable through the channels below — pick whichever fits your context.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;where-to-find-me&#34;&gt;Where to Find Me&lt;/h2&gt;&#xA;&lt;h3 id=&#34;𝕏twitter&#34;&gt;𝕏(Twitter)&lt;/h3&gt;&#xA;&lt;p&gt;The fastest way to reach me for quick exchanges, research discussions, or to just follow along.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;&lt;a href=&#34;https://x.com/thecyberdevhq&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   @thecyberdevhq&#xA;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;&#xA;&lt;p&gt;Where my tools and research code lives. Open issues on relevant repos for project-specific questions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;&lt;a href=&#34;https://gitlab.com/example&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   gitlab.com/yourcyberdev&#xA;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;&#xA;&lt;p&gt;For serious inquiries — consulting, collaboration proposals, or vulnerability disclosures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Things I built and worked on</title>

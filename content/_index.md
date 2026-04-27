@@ -24,9 +24,8 @@ This one is different and among the few that actually give you valuable insight,
 
 ---
 
-## Language Stack
+## Why Offensive Security Research, why Kernel security, why low-level
 
-`C` · `x86_64 ASM` · `ARM64 ASM` · `eBPF` · `C++` · `Rust` · `Python` · `Bash`
 
 ---
 
