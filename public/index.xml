@@ -16,6 +16,13 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777259927/notes-banner_ddngqa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not everything becomes an article. Some things are observations, half-formed ideas, raw analysis notes, or reflections from a late session. They belong here — honest and unpolished, shared anyway.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Write-up&lt;/th&gt;&#xA;          &lt;th&gt;Category&lt;/th&gt;&#xA;          &lt;th&gt;Writeup&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
+      <title>CVE-2021-4154 UAF SERIES - 001</title>
+      <link>http://localhost:1313/0xsec-site/blog/cve-2021-4154/</link>
+      <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
+      <guid>http://localhost:1313/0xsec-site/blog/cve-2021-4154/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777049995/CVE-2021-4154_uln2ig.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Customization of the Theme with Configuration</title>
       <link>http://localhost:1313/0xsec-site/blog/customization/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
@@ -27,7 +34,7 @@
       <link>http://localhost:1313/0xsec-site/blog/linux_audio-debugging/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
       <guid>http://localhost:1313/0xsec-site/blog/linux_audio-debugging/</guid>
-      <description>&lt;p&gt;While testing my laptop&amp;rsquo;s microphone on Linux, I heard sharp static noise instead of my voice but the microphone wasn&amp;rsquo;t broken. The problem was a format mismatch between raw audio streams. This guide walks through proper Linux microphone debugging: why file recording works when live pipes don&amp;rsquo;t, how PipeWire differs from ALSA, and the tools (pw-top, pavucontrol) that reveal what&amp;rsquo;s really happening in your audio stack.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1766493341/Airbrush-OBJECT-REMOVER-1766493267194_wbcena.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1766493341/Airbrush-OBJECT-REMOVER-1766493267194_wbcena.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>

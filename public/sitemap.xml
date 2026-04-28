@@ -8,10 +8,25 @@
     <loc>http://localhost:1313/0xsec-site/blog/</loc>
     <lastmod>2026-04-24T18:01:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/0xsec-site/tags/alsa/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/0xsec-site/categories/</loc>
+    <lastmod>2026-04-24T18:01:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/tags/cve/</loc>
+    <lastmod>2026-04-24T18:01:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/blog/cve-2021-4154/</loc>
+    <lastmod>2026-04-24T18:01:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/tags/linux/</loc>
+    <lastmod>2026-04-24T18:01:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/categories/research/</loc>
+    <lastmod>2026-04-24T18:01:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/tags/</loc>
+    <lastmod>2026-04-24T18:01:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/tags/alsa/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/0xsec-site/blog/customization/</loc>
@@ -36,9 +51,6 @@
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/0xsec-site/tags/pipewire/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/0xsec-site/tags/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/0xsec-site/tags/troubleshooting/</loc>

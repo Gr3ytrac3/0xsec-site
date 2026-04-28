@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 29 May 2025 10:42:17 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 18:01:56 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/0xsec-site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/0xsec-site/categories/research/</link>
+      <pubDate>Fri, 24 Apr 2026 18:01:56 +0100</pubDate>
+      <guid>http://localhost:1313/0xsec-site/categories/research/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/0xsec-site/categories/hugo/</link>
