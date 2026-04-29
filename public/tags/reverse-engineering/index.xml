@@ -6,14 +6,14 @@
     <description>Recent content in Reverse Engineering on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 29 Mar 2025 10:42:17 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/0xsec-site/tags/reverse-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integer Overflow — From Reverse Engineering to Infinite Passwords</title>
       <link>http://localhost:1313/0xsec-site/blog/integer-overflow/</link>
-      <pubDate>Sat, 29 Mar 2025 10:42:17 -0400</pubDate>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/0xsec-site/blog/integer-overflow/</guid>
-      <description>&lt;p&gt;First reverse engineering challenge completed using static analysis, dynamic debugging, and mathematical modeling.&lt;/p&gt;&#xA;&lt;p&gt;This project demonstrates how an integer overflow vulnerability in atoi() can produce infinite valid passwords.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777503440/ghidra-banner_pegdsj.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777503440/ghidra-banner_pegdsj.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -32,7 +32,7 @@
     <item>
       <title>Linux Microphone Debugging: From ALSA to PipeWire</title>
       <link>http://localhost:1313/0xsec-site/blog/linux_audio-debugging/</link>
-      <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/0xsec-site/blog/linux_audio-debugging/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1766493341/Airbrush-OBJECT-REMOVER-1766493267194_wbcena.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
@@ -53,9 +53,9 @@
     <item>
       <title>Integer Overflow — From Reverse Engineering to Infinite Passwords</title>
       <link>http://localhost:1313/0xsec-site/blog/integer-overflow/</link>
-      <pubDate>Sat, 29 Mar 2025 10:42:17 -0400</pubDate>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/0xsec-site/blog/integer-overflow/</guid>
-      <description>&lt;p&gt;First reverse engineering challenge completed using static analysis, dynamic debugging, and mathematical modeling.&lt;/p&gt;&#xA;&lt;p&gt;This project demonstrates how an integer overflow vulnerability in atoi() can produce infinite valid passwords.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777503440/ghidra-banner_pegdsj.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777503440/ghidra-banner_pegdsj.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Further Introduction</title>

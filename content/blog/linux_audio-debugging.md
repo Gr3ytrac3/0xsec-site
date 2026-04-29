@@ -1,5 +1,5 @@
 ---
-date: '2025-05-29T10:42:17-04:00'
+date: '2025-12-25'
 draft: false
 title: 'Linux Microphone Debugging: From ALSA to PipeWire'
 description: Describes common Mainroad theme configuration
