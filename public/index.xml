@@ -6,8 +6,15 @@
     <description>Recent content in Welcome to my domain on Cyberdev | 0xSEC</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 27 Apr 2026 03:46:27 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 01:10:05 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/0xsec-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>French</title>
+      <link>http://localhost:1313/0xsec-site/french/</link>
+      <pubDate>Wed, 29 Apr 2026 01:10:05 +0100</pubDate>
+      <guid>http://localhost:1313/0xsec-site/french/</guid>
+      <description>&lt;h1 id=&#34;bienvenu&#34;&gt;Bienvenu&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>Thoughts &amp; fragments</title>
       <link>http://localhost:1313/0xsec-site/notes/</link>

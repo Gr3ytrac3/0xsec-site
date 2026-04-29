@@ -117,6 +117,20 @@ dir="ltr">
       <span>Notes</span>
     </a>
   
+    
+    
+    
+    
+
+    <a href="/0xsec-site/french"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>French</span>
+    </a>
+  
 </nav>
       </nav>
 
@@ -226,6 +240,20 @@ dir="ltr">
       <span>Notes</span>
     </a>
   
+    
+    
+    
+    
+
+    <a href="/0xsec-site/french"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>French</span>
+    </a>
+  
 </nav>
       </nav>
     </div>
@@ -240,58 +268,33 @@ dir="ltr">
     <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr_30%] gap-6"><section id="posts" class="space-y-2"><h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Welcome to my domain</h2><div class="prose dark:prose-invert prose-sm max-w-none mb-8"><blockquote>
 <p><em>I find what should not be found.</em></p>
 </blockquote>
-<p>Most sites in this space hand you a wall of jargon and call it knowledge.</p>
-<p>This one is different and among the few that actually give you valuable insight, knowing that not everyone can related with the content. I built it for the curious not just the credentialed. Whether you are deep in low-level systems, the kernel or just beginning to ask real questions, you belong here and you&rsquo;re welcome.</p>
+<p>Most sites in this space hand you a wall of jargon that you&rsquo;re not used to, or clearly have no idea about. This one is different and among the few that actually give you valuable insight, knowing that not everyone can related with the content. I built it for the curious not just the credentialed. Whether you are into low-level systems, the kernel or just beginning to ask real questions or just trying to find your way, you belong here and you&rsquo;re welcome.</p>
 <h2 id="what-i-share-here">What i share here</h2>
 <blockquote>
 <p>I am not here to prove I am the smartest person in the room. I am here to make the room bigger.</p>
 </blockquote>
+<p>There are so many things I will be sharing here but the below categories are likely the ones you will see</p>
 <ul>
-<li><strong>Technical</strong> — CVE analysis, kernel exploitation, low-level research — written so the reasoning is visible, not just the result. Here, when the process is understood, the results become evident</li>
-<li><strong>Educational</strong> — Concepts explained from first principles. If you have to Google every third word, I have failed.</li>
-<li><strong>Personal Thoughts</strong> — The cost of craft. What it feels like to build something real. This the part most people usually don&rsquo;t posts about.</li>
-<li><strong>Open</strong> — Everything I build is shared. Every insight is documented. There&rsquo;s no benefit in hidden knowledge. It&rsquo;s a waste.</li>
+<li><strong>Technical</strong>: here you have CVE analysis, kernel exploitation, low-level research, written in a way the reasoning is visible, not just the result. Because when the process is understood, the results become evident</li>
+<li><strong>Educational</strong>: Concepts explained from first principles. I try my best to break them down to the lowest level possible and i avoid assumming that you know it. I&rsquo;ll often add a reference link to a more detailed source to avoid too much long writeups.</li>
+<li><strong>Personal Thoughts</strong>: Basically The cost of craft. What it feels like to build something real. This the part most people often don&rsquo;t posts about.</li>
+<li><strong>Open</strong>: Meaning that everything I build is shared. Every insight is documented. There&rsquo;s no benefit in hidden knowledge. It&rsquo;s a waste.</li>
 </ul>
 <hr>
 <h2 id="why-offensive-security-research-why-kernel-security-why-low-level">Why Offensive Security Research, why Kernel security, why low-level</h2>
-<hr>
-<h2 id="writing">Writing</h2>
-<p>Research notes, exploit walkthroughs, and technical essays published on the 
-<a href="/posts"
-   >
-   blog
-</a> and 
-<a href="https://substack.com/@cyberdevhq"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   Substack
-</a>.</p>
-<p>Recent topics: Linux audio attack surfaces · kernel syscall interception · black-box penetration testing · covert channel research · human purpose in the AI age.</p>
+<p>I didn&rsquo;t choose offensive security research, it chose me by process of elimination. Every time I tried to stay at the surface, something pulled me deeper.</p>
+<p>It started with curiosity about how systems actually work, not how documentation says they work. I kept noticing the gap between the two. A function behaves one way in the manual and another way under pressure. A boundary that&rsquo;s supposed to hold doesn&rsquo;t. That gap is where offensive security lives, and I found I couldn&rsquo;t stop looking into it.</p>
+<p>Kernel security became the natural anchor point. The kernel is where every abstraction eventually collapses into something real, memory, permissions, scheduling, hardware access. When I started working with Linux internals, tracing syscalls, reading /proc, writing kernel modules, I realized I wasn&rsquo;t just learning a subsystem, I was learning the ground truth that everything else is built on top of. Understanding attacks at that level means understanding attacks at every level, because the kernel is the final arbiter of what is and isn&rsquo;t permitted. That felt like the right place to invest.</p>
+<p>The low-level orientation follows from the same logic. I&rsquo;ve done web penetration testing. I&rsquo;ve written detection scripts. But high-level work has a ceiling that&rsquo;s set by someone else&rsquo;s abstractions. When you work in C, in Assembly, when you&rsquo;re reading kernel source or analyzing a compiled binary without symbols, the ceiling disappears. You&rsquo;re reasoning directly about what the machine is doing. That kind of understanding doesn&rsquo;t become obsolete when a framework changes.</p>
+<p>The covert channel research I published, where two binaries communicated exclusively through Unix file permission bits, came directly from that orientation. Nobody handed me that attack surface. I found it by thinking at a level where file permissions aren&rsquo;t just an access control mechanism but a writable state observable by any process with the right vantage point. That&rsquo;s what low-level thinking gives you: the ability to see attack surface that simply isn&rsquo;t visible from above.</p>
+<p>I&rsquo;m pursuing offensive security research because I want to produce knowledge that advances how the field understands real threats, not just find bugs, but explain why they exist, how they can be chained, and what they reveal about the assumptions baked into the systems we trust. Kernel security is the domain where that work is hardest, most consequential, and most needed.</p>
 <hr>
 <h2 id="contact">Contact</h2>
 <p>For vulnerability disclosures, research collaborations, or consulting engagements — see the 
-<a href="/contact"
+<a href="/0xsec-site/contact"
    >
    contact page
 </a>. PGP available on request.</p>
-<p>
-<a href="https://x.com/thecyberdevhq"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   @thecyberdevhq
-</a> · 
-<a href="https://github.com/Gr3ytrac3"
-   
-     target="_blank" rel="noopener noreferrer"
-   >
-   GitHub
-</a> · 
-<a href="mailto:cyberdev@proton.me"
-   >
-   cyberdev@proton.me
-</a></p>
 </div>
   <a href="/0xsec-site/blog" class="inline-flex items-center gap-2 font-mono text-sm text-amber-500 dark:text-amber-400 border border-amber-500 dark:border-amber-400 px-5 py-2.5 hover:bg-amber-500 hover:text-gray-900 dark:hover:bg-amber-400 dark:hover:text-gray-900 transition-colors">
     Read the Blog &rarr;

@@ -100,6 +100,10 @@ menu:
       name: Notes
       url: /notes/
       weight: -50
+    - identifier: french
+      name: French
+      url: /french
+      weight: -40
   footer:
     - identifier: contact
       name: Coffee
