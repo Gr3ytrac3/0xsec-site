@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html class=""
+id="theme-root" 
+lang="en-US" 
+dir="ltr">
+
+<head><script src="/0xsec-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=0xsec-site/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name="theme-name" content="tailroad" />
+<title>Integer Overflow — From Reverse Engineering to Infinite Passwords | Cyberdev | 0xSEC</title>
+<meta name="description" content="Describes common Mainroad theme configuration">
+<link rel="icon" type="image/x-icon" href="/0xsec-site/favicon.ico">
+<script>
+  document.documentElement.classList.add("dark");
+</script><link rel="stylesheet" href="/0xsec-site/css/main.css"></head>
+
+<body class="flex flex-col text-gray-900 dark:text-white bg-white dark:bg-gray-900"><header class="w-full sticky top-0 z-50 bg-gray-100 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+  <div class="px-4 py-2 lg:px-6">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <a href="/0xsec-site/"  title="Cyberdev | 0xSEC"  rel="home" class="flex items-center">
+          
+          <div class="flex flex-col leading-tight">
+            <span class="text-xl font-bold text-amber-900 dark:text-amber-400">Cyberdev | 0xSEC</span>
+          </div>
+          
+        </a>
+      </div>
+
+      
+      <nav class="hidden lg:flex flex-wrap gap-4 text-sm">
+        
+<nav class="flex flex-wrap gap-4 text-sm">
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Home</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/about/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>About</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/blog/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                bg-gray-300 text-gray-900 dark:bg-gray-700 dark:text-white
+              ">
+      
+      <span>Blog</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/opensource/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Open Source</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/contact/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Contact</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/notes/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Notes</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/french"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>French</span>
+    </a>
+  
+</nav>
+      </nav>
+
+      <div class="flex items-center space-x-4">
+        <div class="hidden lg:flex items-center border border-gray-600 rounded-full px-4 py-2">
+          <i data-lucide="search" class="w-5 h-5 text-gray-400 mr-2"></i>
+          <input id="searchInput" type="text" placeholder="Search..." aria-label="Search Articles"
+            class="bg-transparent focus:outline-none text-sm text-gray-900 dark:text-white placeholder-gray-400" />
+          <kbd id="search-shortcut" class="ml-3 text-xs font-mono text-gray-500 dark:text-gray-300 bg-gray-200 dark:bg-gray-700 px-2 py-0.5 rounded"></kbd>
+        </div>
+
+        
+        
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    
+    <div id="mobile-menu" class="hidden lg:hidden mt-2 pb-2">
+      <nav class="flex flex-col gap-2 text-sm">
+        
+<nav class="flex flex-wrap gap-4 text-sm">
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Home</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/about/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>About</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/blog/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                bg-gray-300 text-gray-900 dark:bg-gray-700 dark:text-white
+              ">
+      
+      <span>Blog</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/opensource/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Open Source</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/contact/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Contact</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/notes/"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>Notes</span>
+    </a>
+  
+    
+    
+    
+    
+
+    <a href="/0xsec-site/french"
+       class="flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors duration-200
+              
+                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800
+              ">
+      
+      <span>French</span>
+    </a>
+  
+</nav>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.getElementById('mobile-menu-btn').addEventListener('click', function() {document.getElementById('mobile-menu').classList.toggle('hidden');
+});
+</script>
+<main id="main-content" class="w-full" role="main">
+    <div class="mx-auto max-w-5xl w-full py-6 px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-[1fr]"><section id="posts" class="space-y-2"><h1 class="text-3xl font-bold mb-2">Integer Overflow — From Reverse Engineering to Infinite Passwords</h1>
+
+<div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-6">
+  <div class="flex items-center gap-1"><i class="fas fa-clock"></i>1 Mins read
+  </div>
+
+  <div class="flex items-center gap-1">
+      <i class="fas fa-calendar"></i>
+      <time datetime="2025-05-29T10:42:17-04:00">May 29, 2025</time>
+    </div>
+  
+
+  <div class="flex items-center gap-1">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/0xsec-site/categories/crackmes/" class=" text-xs font-medium transition 
+         hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700">
+      Crackmes
+    </a>
+    
+    
+  </div>
+</div><article class="prose dark:prose-invert max-w-none"><p>First reverse engineering challenge completed using static analysis, dynamic debugging, and mathematical modeling.</p>
+<p>This project demonstrates how an integer overflow vulnerability in atoi() can produce infinite valid passwords.</p>
+</article>
+<br>
+    <div class="flex flex-wrap items-center gap-2">
+      <i class="fas fa-tags"></i>
+      
+        <a href="/0xsec-site/tags/reverse-engineering/"
+           class="inline-block px-3 py-1 rounded-full text-xs font-medium transition 
+        border hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700">
+        Reverse Engineering
+      </a>
+    </div>
+<br>
+<div class="giscus mt-8">
+<script src="https://giscus.app/client.js"
+        data-repo="Gr3ytrac3/0xsec-site"
+        data-repo-id="R_kgDOSHSMdA" 
+        data-category="General"
+        data-category-id="DIC_kwDOSHSMdM4C7uJz"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+</section></div>
+    </div> 
+</main>
+  <footer class="border-t border-gray-200 dark:border-gray-700"><div class="border-t border-gray-800 dark:border-gray-700 flex flex-row text-sm text-gray-500 dark:text-gray-400 items-center px-4 lg:px-6 py-8 gap-4">
+  <div class="w-full font-mono tracking-wide">
+    <span class="text-amber-500 dark:text-amber-400">Cyberdev</span>
+    <span class="text-gray-600 dark:text-gray-500"> / </span>
+    <span>0xSEC</span>
+    <span class="text-gray-600 dark:text-gray-500 mx-2">·</span>
+    <span>&copy; 2026</span>
+    <span class="text-gray-600 dark:text-gray-500 mx-2">·</span>
+    <span class="italic">Offensive Security Research.</span>
+  </div>
+  <div class="flex space-x-4 font-mono tracking-wide shrink-0">
+    <a class="hover:text-amber-500 dark:hover:text-amber-400 transition-colors" href="https://x.com/thecyberdevhq" target="_blank">X</a>
+    <a class="hover:text-amber-500 dark:hover:text-amber-400 transition-colors" href="https://github.com/Gr3ytrac3" target="_blank">GitHub</a>
+    <a class="hover:text-amber-500 dark:hover:text-amber-400 transition-colors" href="https://substack.com/@cyberdevhq" target="_blank">Substack</a>
+    <a class="hover:text-amber-500 dark:hover:text-amber-400 transition-colors" href="https://orcid.org/0009-0002-2842-0413" target="_blank">ORCID</a>
+    <a class="hover:text-amber-500 dark:hover:text-amber-400 transition-colors" href="/contact">Contact</a>
+  </div>
+</div>
+</footer><button id="scrollTopBtn"
+        class="hidden fixed bottom-6 right-6 z-50 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700 transition duration-300"
+        aria-label="Scroll to top">
+  ^
+</button><script src="https://unpkg.com/lucide@latest"></script>
+<script>lucide.createIcons();</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+
+      <script src="/0xsec-site/js/main.js"></script>
+      <script src="/0xsec-site/js/theme.js"></script>
+      <script src="/0xsec-site/js/toc.js"></script>
+      <script src="/0xsec-site/js/code.js"></script>
+      <script src="/0xsec-site/js/search.js"></script></body>
+</html>

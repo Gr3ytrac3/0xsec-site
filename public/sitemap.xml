@@ -32,13 +32,13 @@
     <loc>http://localhost:1313/0xsec-site/tags/alsa/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/0xsec-site/blog/customization/</loc>
-    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/0xsec-site/tags/debugging/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/0xsec-site/categories/hugo/</loc>
+    <lastmod>2025-05-29T10:42:17-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/0xsec-site/blog/integer-overflow/</loc>
     <lastmod>2025-05-29T10:42:17-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/0xsec-site/categories/linux/</loc>

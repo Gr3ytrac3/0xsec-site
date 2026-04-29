@@ -16,11 +16,11 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777049995/CVE-2021-4154_uln2ig.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Customization of the Theme with Configuration</title>
-      <link>http://localhost:1313/0xsec-site/blog/customization/</link>
+      <title>Integer Overflow — From Reverse Engineering to Infinite Passwords</title>
+      <link>http://localhost:1313/0xsec-site/blog/integer-overflow/</link>
       <pubDate>Thu, 29 May 2025 10:42:17 -0400</pubDate>
-      <guid>http://localhost:1313/0xsec-site/blog/customization/</guid>
-      <description>&lt;p&gt;This page outlines common TailRoad configuration parameters, which can be set either in your Hugo configuration file or directly in a page&amp;rsquo;s Front Matter.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/0xsec-site/blog/integer-overflow/</guid>
+      <description>&lt;p&gt;First reverse engineering challenge completed using static analysis, dynamic debugging, and mathematical modeling.&lt;/p&gt;&#xA;&lt;p&gt;This project demonstrates how an integer overflow vulnerability in atoi() can produce infinite valid passwords.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux Microphone Debugging: From ALSA to PipeWire</title>
