@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Welcome to my domain"
+title: "Further Introduction"
 ---
 
 ## <span style="color: orange;">About Me</span>   
@@ -26,9 +26,9 @@ I share everything I learn here, not to demonstrate how far I have come, but to 
 
 A project with <a href="https://github.com/EmmazonTech" style="color: orange;">Mazon</a> as collaborator 
 
-### Research Focus
+### Research Focus (Project)
 
-Linux kernel exploitation · UAF vulnerability analysis · Heap exploitation techniques · Offensive security tooling
+Linux kernel exploitation · UAF vulnerability analysis (for now) · Heap exploitation techniques · Offensive security tooling
 
 ## <span style="color: orange;">Find Me</span>
 
@@ -37,7 +37,7 @@ One way you're sure to get to me is on <a href="https://x.com/thecyberdevhq" sty
 
 Another way to get me in on <a href="https://substack.com/@cyberdevhq" style="color: orange;">Substack</a>. I share a lot of ongoing work there and more field-related realities as well.
 
-It's not everyday that we see people in such field post a lot about their workflow, perhaps due to the less number of people that show interest. Honestly i don't think about that. People are genuingly currious to know how some things work, if only somehow could carry them along.
+It's not everyday that we see people in such field post a lot about their workflow, perhaps due to the less number of people that show interest. Honestly i don't think about that. People are genuingly currious to know how some things work, if only someone could carry them along.
 
 So my Substack is more like **A day in the life of an Offensive Security Researcher**
 
