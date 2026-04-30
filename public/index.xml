@@ -37,13 +37,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1766493341/Airbrush-OBJECT-REMOVER-1766493267194_wbcena.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/0xsec-site/contact/</link>
-      <pubDate>Thu, 29 May 2025 10:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/0xsec-site/contact/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re here, you probably have something worth saying. I&amp;rsquo;m reachable through the channels below — pick whichever fits your context.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;where-to-find-me&#34;&gt;Where to Find Me&lt;/h2&gt;&#xA;&lt;h3 id=&#34;𝕏twitter&#34;&gt;𝕏(Twitter)&lt;/h3&gt;&#xA;&lt;p&gt;The fastest way to reach me for quick exchanges, research discussions, or to just follow along.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;&lt;a href=&#34;https://x.com/thecyberdevhq&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   @thecyberdevhq&#xA;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;&#xA;&lt;p&gt;Where my tools and research code lives. Open issues on relevant repos for project-specific questions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;&lt;a href=&#34;https://gitlab.com/example&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   gitlab.com/yourcyberdev&#xA;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;&#xA;&lt;p&gt;For serious inquiries — consulting, collaboration proposals, or vulnerability disclosures.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Things I built and worked on</title>
       <link>http://localhost:1313/0xsec-site/opensource/</link>
       <pubDate>Thu, 29 May 2025 10:00:00 -0400</pubDate>
@@ -56,6 +49,13 @@
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/0xsec-site/blog/integer-overflow/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dipvhqnzw/image/upload/v1777503440/ghidra-banner_pegdsj.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/0xsec-site/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/0xsec-site/contact/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re here, you probably have something worth saying. I&amp;rsquo;m reachable through the channels below — pick whichever fits your context.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;where-to-find-me&#34;&gt;Where to Find Me&lt;/h2&gt;&#xA;&lt;h3 id=&#34;𝕏twitter&#34;&gt;𝕏(Twitter)&lt;/h3&gt;&#xA;&lt;p&gt;The fastest way to reach me for quick exchanges, research discussions, or to just follow along.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;&lt;a href=&#34;https://x.com/thecyberdevhq&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   @thecyberdevhq&#xA;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;&#xA;&lt;p&gt;Where my tools and research code lives. Open issues on relevant repos for project-specific questions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&#xA;&lt;a href=&#34;https://gitlab.com/example&#34;&#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &gt;&#xA;   gitlab.com/yourcyberdev&#xA;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;&#xA;&lt;p&gt;For serious inquiries — consulting, collaboration proposals, or vulnerability disclosures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Further Introduction</title>
